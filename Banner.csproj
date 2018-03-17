@@ -5,13 +5,15 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <ToolCommandName>banner</ToolCommandName>
     <PackAsTool>true</PackAsTool>
+    <Title>Banner</Title>
     <Authors>Anuraj</Authors>
     <Company>dotnetthoughts</Company>
     <Description>A Sample dotnet global tool for building ASCII art</Description>
+    <Summary>A Sample dotnet global tool for building ASCII art</Summary>
     <Copyright>Copyright © dotnetthoughts. All rights reserved.</Copyright>
-    <PackageLicenseUrl>https://github.com/anuraj/banner/blob/master/license</PackageLicenseUrl>
+    <PackageLicenseUrl>https://github.com/anuraj/banner/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/anuraj/banner</PackageProjectUrl>
-    <PackageIconUrl>https://github.com/anuraj/banner/master/logo.png</PackageIconUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/anuraj/banner/master/logo.png</PackageIconUrl>
     <RepositoryUrl>https://github.com/anuraj/banner</RepositoryUrl>
     <RepositoryType>GIT</RepositoryType>
     <PackageTags>.NET Core,ASCII Art</PackageTags>
