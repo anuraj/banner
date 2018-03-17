@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <ToolCommandName>banner</ToolCommandName>
+    <PackAsTool>true</PackAsTool>
+    <Authors>Anuraj</Authors>
+    <Company>dotnetthoughts</Company>
+    <Description>A Sample dotnet global tool for building ASCII art</Description>
+    <Copyright>Copyright © dotnetthoughts. All rights reserved.</Copyright>
+    <PackageLicenseUrl>https://github.com/anuraj/banner/blob/master/license</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/anuraj/banner</PackageProjectUrl>
+    <PackageIconUrl>https://github.com/anuraj/banner/master/logo.png</PackageIconUrl>
+    <RepositoryUrl>https://github.com/anuraj/banner</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <PackageTags>.NET Core,ASCII Art</PackageTags>
+    <PackageReleaseNotes>Version 1.0.0 - Building ASCII art from commandline</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Figgle" Version="0.3.0" />
+  </ItemGroup>
+
+</Project>
